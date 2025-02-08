@@ -41,7 +41,7 @@ export default function BookingPage() {
                 </Avatar>
                 <div>
                   <p className="text-sm text-gray-500">
-                    Saymon/Redwan @rednsay
+                    @Labridtech
                   </p>
                   <h2 className="text-xl font-semibold text-gray-900">
                     Get your free design & development strategy, book a call

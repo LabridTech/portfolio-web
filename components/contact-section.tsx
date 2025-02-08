@@ -14,16 +14,18 @@ export default function ContactSection() {
 
             <p className="text-lg text-gray-400">
               Just email us at{" "}
-              <a href="mailto:hello.rednsay@gmail.com" className="text-emerald-400 hover:underline">
-                hello.rednsay@gmail.com
+              <a href="mailto:labridtech@gmail.com" className="text-emerald-400 hover:underline">
+                labridtech@gmail.com
               </a>{" "}
               with any inquiries, and we'll reply within the next business day.
+
             </p>
 
             <div className="inline-block rounded-lg border border-emerald-400/20 px-4 py-2">
-              <a href="mailto:hello.rednsay@gmail.com" className="text-emerald-400/60 hover:text-emerald-400">
-                hello.rednsay@gmail.com
+              <a href="mailto:labridtech@gmail.com" className="text-emerald-400/60 hover:text-emerald-400">
+                labridtech@gmail.com
               </a>
+
             </div>
           </div>
 
