@@ -18,7 +18,7 @@ export default function Products() {
   
   return (
     <section className="container mx-auto px-1  sm:px-4 py-20">
-      <div className=" flex px-10 sm:px-20 flex-col w-full items-center  justify-center">
+      <div className=" flex px-6 sm:px-10 px-10 sm:px-20 flex-col w-full items-center  justify-center">
         <h1 className="mb-6 text-center text-5xl font-bold leading-tight lg:text-6xl">
           Discover the success stories of our top projects
         </h1>

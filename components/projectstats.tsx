@@ -24,14 +24,14 @@ export default function ProjectStats() {
   }, [inView]);
 
   return (
-    <div ref={ref} className="container p-16 mx-auto">
+    <div ref={ref} className="container p-8 sm:p-16 mx-auto">
       <div className="relative isolate grid items-center max-xs:gap-y-3 lg:grid-cols-[1fr,1.5fr] lg:gap-x-16 xl:gap-x-32">
         <div className="relative isolate">
           <h2 className="__h2 text-center text-4xl font-anton-regular tracking-wider text-white max-lg:mx-auto max-lg:max-w-[500px] max-lg:text-center">
             Proven <span className="text-purple-500">Expertise</span> and{" "}
             <span className="text-purple-500">Exceptional </span> Results
           </h2>
-          <p className="mt-6 text-center font-light text-white/50 md:mt-8 md:text-lg">
+          <p className="my-6 text-center font-light text-white/50 md:my-8 md:text-lg">
             Our team of experts has a proven track record of delivering
             exceptional results for our clients.
           </p>

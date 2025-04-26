@@ -22,7 +22,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href={logo.src} sizes="32x32" />
       </head>
-      <body className={`${inter.className} bg-background text-foreground overflow-x-hidden antialiased`}>
+      <body className={`${inter.className} bg-background text-foreground antialiased`}>
           <MouseMoveEffect />
           {children}
       </body>

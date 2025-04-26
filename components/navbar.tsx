@@ -81,6 +81,7 @@ export default function Navbar() {
           <Button
             className="!bg-gradient-to-b from-white to-gray-600"
             size="sm"
+            onClick={() => router.push("/contact")}
           >
             Get a Demo
           </Button>
@@ -131,6 +132,7 @@ export default function Navbar() {
           <Button
             className="!bg-gradient-to-b from-white to-gray-600"
             size="sm"
+            onClick={() => router.push("/contact")}
           >
             Get a Demo
           </Button>

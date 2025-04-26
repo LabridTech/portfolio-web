@@ -31,8 +31,8 @@ export default function DashboardPreview() {
         {/* Services Grid */}
         <div className="mt-20 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {/* Enterprise React Development */}
-          <Card className="bg-background flex flex-col sm:flex-row col-span-2 border-0">
-            <CardContent className="p-8">
+          <Card className="bg-background flex flex-col sm:flex-row sm:col-span-2 border-0">
+            <CardContent className="p-4 sm:p-8">
               <h2 className="mb-8 text-3xl font-bold">Enterprise React Development</h2>
               <ul className="mb-8 space-y-4">
 
@@ -63,14 +63,14 @@ export default function DashboardPreview() {
               alt="Dashboard preview"
               width={400}
               height={200}
-              className="rounded-lg"
+              className="sm:rounded-lg"
 
             />
           </Card>
 
           {/* Dashboard Preview */}
           <Card className="bg-background border-0">
-            <CardContent className="p-8">
+            <CardContent className="p-4 sm:p-8">
               <Image
                 src={dashboard}
                 alt="Dashboard preview"
@@ -109,8 +109,8 @@ export default function DashboardPreview() {
             </CardContent>
           </Card>
 
-          <Card className="bg-background flex flex-col sm:flex-row col-span-2 border-0">
-            <CardContent className="p-8">
+          <Card className="bg-background flex flex-col sm:flex-row sm:col-span-2 border-0">
+            <CardContent className="p-4 sm:p-8">
               <h2 className="mb-8 text-3xl font-bold">Custom Saas Application</h2>
               <ul className="mb-8 space-y-4">
                 {[

@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function ChooseSection() {
   return (
 
-    <div className="bg-gradient-to-b from-background to-accent p-20">
+    <div className="bg-gradient-to-b from-background to-accent p-10  sm:p-20">
         <div className="container mx-auto">
             <h2 className="text-center font-bricolage text-4xl font-bold lg:text-5xl">Why Choose Us?</h2>
         </div>

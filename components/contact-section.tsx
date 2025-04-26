@@ -3,8 +3,8 @@ import { Mail } from "lucide-react"
 export default function ContactSection() {
   return (
     <div className="min-h-screen bg-black">
-      <div className="container mx-auto p-32">
-        <div className="grid items-center gap-14 lg:grid-cols-2">
+      <div className="container mx-auto p-8 sm:p-32">
+        <div className="grid items-center gap-14 grid-cols-1 lg:grid-cols-2">
           {/* Left Column - Text Content */}
           <div className="space-y-6">
             <div className="space-y-4">
@@ -30,7 +30,7 @@ export default function ContactSection() {
           </div>
 
           {/* Right Column - Icon */}
-          <div className="hidden lg:flex lg:justify-center">
+          <div className="flex justify-center">
             <div className="relative">
               <Mail className="h-64 w-64 text-emerald-400" strokeWidth={1.5} />
               <div className="absolute -left-8 top-1/2 -translate-y-1/2">
